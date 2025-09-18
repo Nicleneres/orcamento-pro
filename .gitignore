@@ -1,0 +1,18 @@
+# Arquivos de configuração sensíveis
+config.php
+
+# Arquivos de ambiente
+.env
+
+# Pasta de uploads de imagens
+/uploads/
+/vendor/
+
+<?php
+// config.php
+
+define('GOOGLE_CLIENT_SECRET', 'AQUI_VAI_A_SUA_CHAVE_SECRETA_DO_GOOGLE');
+// Adicione outras senhas e chaves aqui...
+?>
+# Ignorar arquivos de configuração com senhas
+config.php
